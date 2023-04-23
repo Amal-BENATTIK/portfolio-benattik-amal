@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.me{
+  border-radius: 50%;
+}
+
+
+.rounded-image
+{
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.center-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-nav{
+  display: flex; justify-content: center; align-items: center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width:768px)  {
+
+  .center-nav{
+    display: flex; justify-content: left; align-items: left;
+  }
+  #testt{
+    width: 200px;  
+  }
+
+
+  ul.p-menubar-root-list
+  {
+    width: 100%;
+  }
+
+    #containerH{
+      margin-top: 20px;
+    }
+
+    #descH,#descA{
+      padding-inline: 15px !important;
+    }
+    #accordions{
+      margin-inline: 15px !important;
+    }
+
+
+    #exp{
+      margin-inline: 15px !important;
+    }
+
+    .exp{
+      padding-inline: 0px !important;
+    }
+
+    #exp1,#exp2,#exp3{
+      height: fit-content !important;
+    }
+
+    #skills
+    {
+      margin-inline: 25px !important;
+    }
+
+    #cert
+    {
+      margin-inline: 25px !important;
+    }
+
+    #contact{
+      padding-top: 50px !important;
+    }
+
+    .imgC{
+      width: 250px !important;
+    }
+}
+
+
