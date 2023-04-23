@@ -18,7 +18,7 @@ const About = () => {
   return(
     <div >
       <div style={{marginTop:'50px',marginBottom:'50px',}}>
-        <h1>It's me BENATTIK <span style={{ color: '#9B5DE5' }}>Amal</span></h1>
+        <h1 style={{color:'white'}}>It's me BENATTIK <span style={{ color: '#9B5DE5' }}>Amal</span></h1>
         <p id='descA' style={{ color: '#bbb', paddingInline:'90px' }}>
         Born on 24-10-1999, I am an enthusiastic and passionate individual with a strong drive to learn and grow in my chosen field. I am constantly seeking to deepen my knowledge and expand my skill set by taking on new challenges and exploring new areas of interest. I am open-minded and eager to learn about new technologies, and I am committed to developing my abilities and capacities to the fullest extent possible.
                   </p>
@@ -27,7 +27,7 @@ const About = () => {
 
       <div id='accordions' style={{marginInline:'50px',marginTop:'50px',marginBottom:'50px',}}>
 
-        <h2>Academic Background</h2>
+        <h2 style={{color:'white'}}>Academic Background</h2>
         <Accordion  activeIndex={0} style={{textAlign:'left',}}>
           <AccordionTab header="Engineering Cycle">
               <p className="my-2">
@@ -58,7 +58,7 @@ const About = () => {
       </div>
 
       <div id='exp' style={{marginInline:'50px',marginTop:'100px',marginBottom:'50px',}}>
-        <h2 style={{marginBottom:'60px',}}>Professional Experinces</h2>
+        <h2 style={{marginBottom:'60px',color:'white',}}>Professional Experinces</h2>
         <div class="grid">
           <div class="col" >
             <Fieldset className='exp' id='exp1' legend="InternShip March 2019" style={{height:'400px'}}>
@@ -89,7 +89,7 @@ const About = () => {
 
       <div id='skills' style={{marginInline:'50px',}}>
         <div className="mb-3 font-bold text-3xl " >
-            <span className="text-900">My </span>
+            <span className="text-900" style={{color:'white'}}>My </span>
             <span className="" style={{ color: '#9B5DE5' }}>Skills</span>
         </div>
         <div className="surface-0 text-center" style={{marginTop:'80px',marginBottom:'50px',}}>
